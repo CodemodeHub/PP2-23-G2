@@ -1,4 +1,4 @@
-#PP2-23-G1
+# PP2-23-G1
 ## Presentations:
 * [Welcome lecture](https://slides.com/alikhangubayev/welcome-lecture/fullscreen).
 * [Python Fundamentals](https://slides.com/alikhangubayev/lesson-1/fullscreen).
