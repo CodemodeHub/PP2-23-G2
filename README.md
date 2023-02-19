@@ -5,3 +5,6 @@
 * [Python Fundamentals2](https://slides.com/yaslan/lesson-1-python-fundamentals/fullscreen)
 * [Generators, classes](https://slides.com/alikhangubayev/lesson-3-python-collections/fullscreen)
 * [Scope, modules, iterators, math, date](https://slides.com/yaslan/lesson-2/fullscreen)
+* [JSON, Regex](https://slides.com/alikhangubayev/lesson-5-regex-json/fullscreen)
+* [Module OS](https://slides.com/alikhangubayev/lesson-6-os-json/fullscreen)
+
