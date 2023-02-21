@@ -22,7 +22,7 @@ while running:
     for event in pg.event.get():
         if event.type == pg.QUIT:
             running = False
-    points = [(100,100), (200,200),(456,456), (100,200)]
+    points = [(100,100), (200,200),(456,456)]
     pg.draw.polygon(screen, (123,213,32), points, 10)
     r2 = font.render("Bon Aqua", True, (0,0,0))
     screen.blit(r2, (50, 50))

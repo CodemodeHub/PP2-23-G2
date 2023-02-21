@@ -22,6 +22,6 @@ while running:
     pg.draw.line(screen, (187,38,99), (300,30),(300,300), 5)
     pg.draw.circle(screen, (0,0,255),(400,300),50, 8)
     pg.draw.ellipse(screen, (30,97,106),(400,400, 100,40))
-    pg.draw.arc(screen, (40,255,40),(0,0, 800,600), 0,  math.pi / 2)
+    # pg.draw.arc(screen, (40,255,40),(0,0, 800,600), 0,  math.pi / 2)
     pg.display.flip()
 pg.quit()
