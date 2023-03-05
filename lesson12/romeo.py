@@ -31,6 +31,8 @@ dx, dy = 3,5
 
 running = True
 lose = False
+
+score = 0
 while running:
     clock.tick(FPS)
     for event in pg.event.get():
@@ -59,10 +61,13 @@ while running:
         dy *= -1
     if x_c >= x - 120 and x_c <= x and y_c == 505:
         dy *= -1
+        score += 1
 
     if y_c >= HEIGHT:
         pg.mixer.music.stop()
         lose = True
+        pg.mixer.music.load("./music/game_over.mp3")
+        pg.mixer.music.play()
 
     x_c += dx
     y_c += dy
@@ -75,7 +80,9 @@ while running:
                 running = False
         screen.fill(WHITE)
         text = font.render("GAME OVER", False, False)
+        text2 = font.render(f"Your score is: {score}", False, False)
         screen.blit(text, (WIDTH // 2 - 150, HEIGHT // 2 - 80))
+        screen.blit(text2,(WIDTH // 2 - 150, HEIGHT // 2))
         pg.display.flip()
 
     
